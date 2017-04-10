@@ -610,7 +610,7 @@ ID | `INTEGER` | environment variable ID
 curl -X PATCH "{{ $links.apiBase }}environment_variable(<ID>)" 
 -H "Content-Type: application/json" 
 -H "Authorization: Bearer <auth_token>"
---data '{"value: "<new value>"}'
+--data '{"value": "<new value>"}'
 ```
 
 #### Delete application variable
